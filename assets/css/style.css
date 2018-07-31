@@ -154,8 +154,12 @@ textarea {
     border: solid 1px #ccc;
     margin-top: 5px;
 }
+input[type="text"], textarea {
+    width: 90%;
+    border: solid 0.5px, #ccc;
+}
 input[type="submit"] {
-    width: 100px;
+    width: 90%;
     height: 40px;
     background-color: #4aaaa5;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
